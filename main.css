@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(250, 231, 205);
+}
 a { 
     text-decoration: none;
     border: 3px solid black;
@@ -10,6 +13,7 @@ a {
 nav {
     padding: 30px;
     margin: auto;
+    text-align: center;
 }
 
 a:hover {
@@ -41,9 +45,4 @@ nav h1 {
     width: 500px;
     margin: auto;
     margin-bottom: -5px;
-}
-
-footer {
-    background-color: green;
-    padding: 1vh;
 }
