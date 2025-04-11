@@ -29,6 +29,7 @@ a {
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
+    font-weight: bold;
 
 }
 
@@ -55,3 +56,19 @@ article img {
     padding: 20px;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width:700px) {
+    #anyatarolo {
+        grid-template-columns: 1fr;
+    }
+    
+}
