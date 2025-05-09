@@ -1,5 +1,7 @@
 body {
     background-color: rgb(250, 231, 205);
+    max-width: 1000px;
+    margin: auto;
 }
 
 .jani {
@@ -12,14 +14,19 @@ body {
     -moz-box-shadow: 0px 0px 28px 0px rgba(13,97,5,1);
     box-shadow: 0px 0px 28px 0px rgba(13,97,5,1);
     font-size: 14px;
+    min-width: 380px;
+    min-height: 740px;
+    
     
     
 } 
 #anyatarolo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: auto;
-    gap: 150px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+    
 }
 
 
@@ -27,15 +34,17 @@ a {
     text-decoration: none;
     border: 3px solid black;
     padding: 10px;
-    margin-top: 10px;
     border-radius: 5px;
-    font-weight: bold;
 
 }
 
 nav {
     padding: 30px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
 }
+
 
 a:hover {
     background-color: rgb(0, 255, 149);
@@ -45,11 +54,16 @@ nav h1 {
     text-align: center;
     color: white;
     font-size: 30px;
+    
 }
 
 
 article img {
-    width: 350px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+    
 }
 
 #harmadik {
