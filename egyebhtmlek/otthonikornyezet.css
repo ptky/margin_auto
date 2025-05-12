@@ -25,6 +25,10 @@ nav {
 a:hover {
     background-color: rgb(0, 255, 149);
 }
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 
 nav h1 {
     text-align: center;
@@ -33,7 +37,11 @@ nav h1 {
     
 }
 
-
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
 
 .feri{
     display: grid;
@@ -48,7 +56,27 @@ nav h1 {
     min-width: 380px;
     min-height: 740px;
 }
+#tarolo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:20px;
+    margin-bottom: 20px;
     
+    
+}
+.feri p {
+    height: 300px;
+}
+
+article img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+    
+}
+
     
 @media screen and (max-width:700px) {
     #tarolo {
