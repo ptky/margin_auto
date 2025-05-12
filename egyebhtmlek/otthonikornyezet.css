@@ -32,5 +32,8 @@ nav h1 {
     font-size: 30px;
     
 }
-
-
+@media screen and (max-width:700px) {
+    #tarolo {
+        grid-template-columns: 1fr;
+    }
+}
