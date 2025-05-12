@@ -32,6 +32,24 @@ nav h1 {
     font-size: 30px;
     
 }
+
+
+
+.feri{
+    display: grid;
+    margin: auto;
+    width: 350px;
+    border: 5px solid black;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(13,97,5,1);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(13,97,5,1);
+    box-shadow: 0px 0px 28px 0px rgba(13,97,5,1);
+    font-size: 14px;
+    min-width: 380px;
+    min-height: 740px;
+}
+    
+    
 @media screen and (max-width:700px) {
     #tarolo {
         grid-template-columns: 1fr;
