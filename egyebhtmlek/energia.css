@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 
-.jani {
+.daijin {
     display: grid;
     margin: auto;
     width: 350px;
@@ -20,7 +20,7 @@ body {
     
     
 } 
-#anyatarolo {
+#anyus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top:20px;
@@ -66,7 +66,7 @@ article img {
     
 }
 
-#harmadik {
+#zsoszke {
     padding: 20px;
 }
 
@@ -81,12 +81,12 @@ p {
 }
 
 @media screen and (max-width:700px) {
-    #anyatarolo {
+    #anyus {
         grid-template-columns: 1fr;
     }
     
 }
 
-.jani p {
+.daijin p {
     height: 300px;
 }
