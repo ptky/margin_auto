@@ -85,6 +85,7 @@ article img {
     #tarolo {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 30px;
         margin: auto;
         max-width: 110%;
     }
@@ -100,15 +101,7 @@ article img {
     
 }
 
-@media screen and (max-width:600px) {
-    #lemondott{
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 110%;
-        
-    }
-    
-}
+
 @media screen and (max-width:600px) {
     body{
         display: grid;
