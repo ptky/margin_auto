@@ -82,6 +82,7 @@ p {
 
 @media screen and (max-width:700px) {
     #anyus {
+        display: grid;
         grid-template-columns: 1fr;
     }
     
@@ -95,6 +96,7 @@ p {
     #navigacio {
         display: grid;
         grid-template-columns: 1fr;
+        max-width: 110%;
     }
     
 }

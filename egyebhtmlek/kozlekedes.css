@@ -82,10 +82,13 @@ p {
 
 @media screen and (max-width:700px) {
     #anyatarolo {
+        display: grid;
         grid-template-columns: 1fr;
+        margin: auto;
+        max-width: 110%;
     }
-    
 }
+
 
 .jani p {
     height: 300px;
@@ -95,6 +98,7 @@ p {
     #navigacio {
         display: grid;
         grid-template-columns: 1fr;
+        max-width: 110%;
     }
     
 }

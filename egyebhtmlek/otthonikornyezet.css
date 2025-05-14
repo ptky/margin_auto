@@ -83,7 +83,10 @@ article img {
     
 @media screen and (max-width:700px) {
     #tarolo {
+        display: grid;
         grid-template-columns: 1fr;
+        margin: auto;
+        max-width: 110%;
     }
 }
 
@@ -91,6 +94,8 @@ article img {
     #navigacio {
         display: grid;
         grid-template-columns: 1fr;
+        max-width:  110%;
+        
     }
     
 }
