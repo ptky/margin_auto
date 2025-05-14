@@ -86,3 +86,12 @@ article img {
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width:600px) {
+    #navigacio {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+

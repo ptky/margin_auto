@@ -90,3 +90,12 @@ p {
 .daijin p {
     height: 300px;
 }
+
+@media screen and (max-width:600px) {
+    #navigacio {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
