@@ -111,3 +111,6 @@ article img {
     }
     
 }
+* {
+    box-sizing: border-box;
+}
